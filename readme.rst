@@ -1,16 +1,16 @@
 ###################
-Criando Aplicações Web com o Framework PHP CodeIgniter 3
+Desenvolvimento de Temas para WordPress com Bootstrap 4
 ###################
 
-O curso "Programando com o Framework PHP Codeigniter 3" é bastante prático em cada aula um novo conteúdo será abordado e apresentado de forma simples e clara, também trabalharemos com exemplos práticos que poderão ser usados em seus projetos futuros. 
+O WordPress hoje em dia tem ganhado muito espaço no cenário de desenvolvimento web por ser de fácil indexação pelos sistemas de buscas, e também por oferecer um sistema de gerenciamento de conteúdo fácil e prático na programação e utilização.
 
-Já nas primeiras videoaulas você aprenderá a trabalhar com o padrão MVC (Model, View, Controller) e a integrar o CodeIgniter com o banco de dados, assim aprendendo a construir todo o CRUD (Create, Read, Update e Delete) com ajuda do Framework. 
+Porém, poucos são os profissionais que conseguem criar temas personalizados, ou temas do zero para WordPress.
 
-Iremos ainda criar um sistema de login e aplicações reais que serão o seu diferencial no ramo de programação web.
+Neste curso iremos te ensinar a como criar um tema totalmente personalizado utilizando para isto o Framework Bootstrap 4, que atualmente é o mais utilizado quando se fala em Web Design Responsivo.
 
-Ao final do curso iremos também publicar nosso conteúdo na web, aprendendo assim a configurar servidores remotos para melhor exibição do nosso conteúdo na web.
+Com este curso você será capaz de criar sites com temas próprios ou até vender os temas que criar em sites especializados, tento assim mais uma fonte renda.
 
 *******************
 Link para o Curso por apenas R$ 19,99
 *******************
-https://www.udemy.com/criando-aplicacoes-web-com-o-framework-php-codeigniter-3/?couponCode=GITHUB
+
