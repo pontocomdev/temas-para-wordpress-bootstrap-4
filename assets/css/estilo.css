@@ -1,0 +1,172 @@
+/*
+Topo
+*/
+.bg-header{
+	background-color: #f1f2f2;
+}
+
+.bg-header div.icon{
+	padding: 10px;
+}
+
+div.icon a{
+	color: #616161;
+}
+
+/*
+Rodapé
+*/
+
+.bg-footer{
+	background-color: #626868;
+}
+
+.bg-footer ul{
+	-webkit-padding-start:0;
+}
+
+.bg-footer ul li{
+	list-style: none;
+}
+
+.bg-footer ul li a{
+	color: #fff;
+}
+
+.bg-card{
+	background-color: #60b131;
+}
+
+.bg-footer-2{
+	background-color: #393e3e;
+	color: #fff;
+}
+
+.bg-footer-2 a{
+	color: #fff;
+	font-weight: bold;
+}
+
+/* 
+General Template
+*/
+
+.bg-general-header{
+	background-color: #626868;
+}
+
+/*
+Configurações Gerais
+*/
+
+.underline{
+	content: '';
+	border-top: 2px solid #da251d;
+	width: 120px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+a.btn-link{
+	background-color: #84c225;
+	border-color: #447d22;
+	color: #fff;
+}
+
+a.btn-link:hover, a.btn-link:focus{
+	background-color: #60b131;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* 
+Configurações Menu Lateral
+*/
+
+.card-list{
+    padding: 0.05rem;
+}
+
+.card-list a{
+    color: #60B131;
+    padding: 0.5rem;
+}
+
+.card-list a:hover{
+    text-decoration: none;
+    color:  #60B131;
+    
+}
+
+.card-list > ul{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.card-list > ul > li:focus, .card-list > ul > li:hover {
+    z-index: 1;
+    text-decoration: none;
+}
+.card-list > ul > li {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.card-list > ul > li:first-child {
+    border-top: 0;
+}
+
+.card-list > ul > li:last-child {
+    border-bottom: 0;
+}
+
+.card-list > ul > li > a{
+    color: #60B131;
+    display: block;
+}
+
+.card-list > ul > li > a:hover {
+    text-decoration: none;
+    color:  #60B131;
+}
+.card-list > ul > li:focus, .card-list > ul > li:hover {
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.searchform div{
+	padding: 10px;
+}
+
+.searchform div input{
+	display: block;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+#searchsubmit{
+	background-color: #84c225;
+	border-color: #447d22;
+	color: #fff;
+}
+
+#searchsubmit:hover, #searchsubmit:focus{
+	background-color: #60b131;
+	text-decoration: none;
+	color: #fff;
+}
+
+
