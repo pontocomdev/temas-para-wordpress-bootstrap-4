@@ -1,15 +1,13 @@
-	<?php get_header(); ?>
+	<?php get_header(); //category.php author.php tags.php date.php ?>
 	
 	<div class="container-fluid bg-general-header">
 		<div class="container py-4">
-			<header class="col-md-12">
+			<header class="col-md-12 header-config">
 				<h1 class="text-center text-light">
-					Lista de Postagens do Blog
+					<?php the_archive_title(); ?>
 					<span class="underline"></span>
 				</h1>
-				<p class="text-light text-center"> 
-					Acompanhe tudo que acontece em nosso blog, nossas ações, palestras, metas e muito mais..
-				</p>
+					<?php the_archive_description(); ?>
 			</header>
 		</div>
 	</div>

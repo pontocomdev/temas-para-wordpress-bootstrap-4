@@ -4,11 +4,11 @@
 		<div class="container py-4">
 			<header class="col-md-12">
 				<h1 class="text-center text-light">
-					Lista de Postagens do Blog
+					Resultado da Pesquisa por: <?php echo get_search_query(); ?>
 					<span class="underline"></span>
 				</h1>
 				<p class="text-light text-center"> 
-					Acompanhe tudo que acontece em nosso blog, nossas ações, palestras, metas e muito mais..
+					Sua busca em nosso site retornou os seguintes resultados...
 				</p>
 			</header>
 		</div>

@@ -56,6 +56,22 @@ General Template
 }
 
 /*
+Archive Template
+*/
+.header-config p{
+	text-align: center;
+	color: #f8f9fa;
+}
+
+/*
+Home Template
+*/
+
+header.title h2{
+	color: #034c31;
+}
+
+/*
 Configurações Gerais
 */
 
@@ -78,6 +94,14 @@ a.btn-link:hover, a.btn-link:focus{
 	background-color: #60b131;
 	text-decoration: none;
 	color: #fff;
+}
+
+.pag-link a{
+	color: #60b131;
+}
+
+.pag-link a:hover{
+	color: #60b131;
 }
 
 /* 
