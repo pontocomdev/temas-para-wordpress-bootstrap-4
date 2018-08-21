@@ -11,6 +11,6 @@ Neste curso iremos te ensinar a como criar um tema totalmente personalizado util
 Com este curso você será capaz de criar sites com temas próprios ou até vender os temas que criar em sites especializados, tento assim mais uma fonte renda.
 
 *******************
-Link para o Curso por apenas R$ 19,99
+Link para o Curso por apenas R$ 19,99: https://www.udemy.com/temas-wordpress-com-bootstrap-4/?couponCode=GITHUB
 *******************
 
