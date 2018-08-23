@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	
+	<?php masterslider(1); ?>
 	<!-- Noticias em Destaque -->
 	<div class="container-fluid">
 		<div class="container">

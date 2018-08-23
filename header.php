@@ -3,19 +3,17 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Meu Site</title>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 	<header>
 		<div class="container-fluid bg-header">
 			<div class="container">
-				<div class="text-right icon">
-					<a href="#" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
-					<a href="#" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-					<a href="#" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
-					<a href="#" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-				</div>
+				<?php
+					if(is_active_sidebar('social-icons')){
+						dynamic_sidebar('social-icons');
+					}
+				?>
 			</div>
 		</div>
 		<div class="container-fluid">

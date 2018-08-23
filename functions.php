@@ -26,6 +26,9 @@ register_nav_menus(
 //Habilitar Imagens de Destaque
 add_theme_support('post-thumbnails');
 
+//Adicionar a tag Title
+add_theme_support('title-tag');
+
 //Resgistro de Sidebars e Widgets
 function curso_sidebars(){
 	register_sidebar(
@@ -61,6 +64,26 @@ function curso_sidebars(){
 			'after_widget'  => '</div></div>',
 			'before_title'  => '<div class="card-header">',
 			'after_title'   => '</div><div class="card-body card-list">'
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => ('Social Icones'),
+			'id'            => 'social-icons',
+			'description'   => ('Adicione suas Redes Sociais aqui.'),
+			'before_widget' => '<div class="text-right py-2">',
+			'after_widget'  => '</div>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => ('Formulário de Contato'),
+			'id'            => 'contact',
+			'description'   => ('Adicione o código do Formulário de contato com um campo de texto.'),
+			'before_widget' => '<div class="py-4">',
+			'after_widget'  => '</div>',
 		)
 	);
 }

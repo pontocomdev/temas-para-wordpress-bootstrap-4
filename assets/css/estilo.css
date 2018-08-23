@@ -72,6 +72,46 @@ header.title h2{
 }
 
 /*
+404 Template
+*/
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+
+body.error404{
+	background-color: #626868;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	max-height: 700px;
+	overflow: hidden;
+}
+
+.div-error{
+	margin: 120px auto 20px;
+}
+
+._404{
+	font-size: 220px;
+	position: relative;
+	display: inline-block;
+	height: 250px;
+	letter-spacing: 15px;
+	color: #ffc107;
+}
+
+._1{
+	display: block;
+	position: relative;
+	letter-spacing: 12px;
+	font-size: 4em;
+	line-height: 80%;
+}
+
+._2{
+	display: block;
+	position: relative;
+	font-size: 20px;
+}
+
+/*
 Configurações Gerais
 */
 
